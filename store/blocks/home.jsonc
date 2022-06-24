@@ -1,6 +1,6 @@
 {
   "store.home": {
-    "blocks": ["rich-text", "info-card", "info-card#button-right"]
+    "blocks": ["rich-text", "info-card", "info-card#button-left"]
   },
   "rich-text": {
     "props": {
@@ -16,23 +16,23 @@
       "textPosition": "right",
       "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
       "headline": "bloco 1",
-      "subhead": "exemplo de bloco de protudos 1",
+      "subhead": "exemplo de bloco de protudos 1 cor rosa",
       "callToActionMode": "button",
       "callToActionText": "Explore",
       "callToActionUrl": "/sale/d",
       "textAlignment": "center"
     }
   },
-  "info-card#button-right": {
+  "info-card#button-left": {
     "props": {
       "isFullModeStyle": false,
-      "textPosition": "right",
-      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
+      "textPosition": "left",
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
       "headline": "bloco 2",
-      "subhead": "exemplo de bloco de produtos 2",
-      "callToActionMode": "button",
-      "callToActionText": "Explore",
-      "callToActionUrl": "/sale/d",
+      "subhead": "exemplo de bloco de produtos 2 cor cinza",
+      "callToActionMode": "link",
+      "callToActionText": "Go to collection",
+      //"callToActionUrl": "/sale/d",
       "textAlignment": "center"
     }
   }
