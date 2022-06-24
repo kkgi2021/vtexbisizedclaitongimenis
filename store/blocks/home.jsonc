@@ -1,6 +1,6 @@
 {
   "store.home": {
-    "blocks": ["rich-text", "info-card", "info-card#button-left"]
+    "blocks": ["rich-text", "info-card#button-right", "info-card#button-left"]
   },
   "rich-text": {
     "props": {
@@ -10,7 +10,7 @@
       "font": "t-heading-1"
     }
   },
-  "info-card": {
+  "info-card#button-right": {
     "props": {
       "isFullModeStyle": false,
       "textPosition": "right",
@@ -23,6 +23,7 @@
       "textAlignment": "center"
     }
   },
+
   "info-card#button-left": {
     "props": {
       "isFullModeStyle": false,
@@ -32,7 +33,6 @@
       "subhead": "exemplo de bloco de produtos 2 cor cinza",
       "callToActionMode": "link",
       "callToActionText": "Go to collection",
-      //"callToActionUrl": "/sale/d",
       "textAlignment": "center"
     }
   }
