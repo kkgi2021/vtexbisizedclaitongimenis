@@ -1,72 +1,38 @@
 {
   "store.home": {
-    "blocks": [
-      "rich-text",
-      "info-card#button-right",
-      "info-card#button-left",
-      "flex-layout.row",
-      "slider-layout#home"
-      ]
+    "blocks": ["rich-text", "info-card#clearance", "info-card#vintage"]
   },
   "rich-text": {
     "props": {
-      "text": "**Loja bisized claiton**",
+      "text": "VTEX Store Framework",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-1"
     }
   },
-   "flex-layout.row": {
-    "children": ["info-card#rethink", "flex-layout.col"]
-  },
-  "flex-layout.col": {
-    "children": ["image#electronics", "image#major-appliance"]
-  },
-  "info-card#rethink": {
+  "info-card#clearance": {
     "props": {
-      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/utensilios-cozinha-min.png",
-      "isFullModeStyle": true,
-      "headline": "Time to rethink your kitchen",
-      "callToActionText": "Discover",
-      "textPosition": "center"
-    }
-  },
-  "image#electronics": {
-    "props": {
-      "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/electronics_banner___25d69b49f8224b369375e68513b4d593.png",
-      "maxWidth": "100%"
-    }
-  },
-  "image#major-appliance": {
-    "props": {
-      "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/major_appliance_banner___bb10093866a127345ddfbcca3efa5022.png",
-      "maxWidth": "100%"
-    }
-  },
-  "info-card#button-right": {
-    "props": {
+      "id": "info-card-clearance",
       "isFullModeStyle": false,
-      "textPosition": "right",
-      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
-      "headline": "bloco 1",
-      "subhead": "exemplo de bloco de protudos 1 cor rosa",
-      "callToActionMode": "button",
-      "callToActionText": "Explore",
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
       "callToActionUrl": "/sale/d",
       "textAlignment": "center"
     }
   },
-
-  "info-card#button-left": {
+  "info-card#vintage": {
     "props": {
+      "id": "info-card-vintage",
       "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
-      "headline": "bloco 2",
-      "subhead": "exemplo de bloco de produtos 2 cor cinza",
-      "callToActionMode": "link",
-      "callToActionText": "Go to collection",
-      "textAlignment": "center"
+      "textPosition": "right",
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
+      "headline": "Vintage",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center",
+      "blockClass": "vintage"
     }
   }
 }
